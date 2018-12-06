@@ -1,0 +1,38 @@
+{
+    "env": {
+      "browser": true,
+      "node": true,
+      "commonjs": true,
+      "jest": true,
+      "es6": true
+    },
+    "globals": {
+      "error": true,
+      "request": true,
+      "response": true,
+      "next": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "rules": {
+        "react/prop-types": [0],
+        "no-unused-vars": "off",
+        "comma-dangle": ["error", "always-multiline"],
+        "semi": ["error", "never"],
+        "eqeqeq": ["error", "always"],
+        "no-template-curly-in-string": "error",
+        "no-console": "off",
+        "no-undefined": "off",
+        "indent": ["error", 2, {"SwitchCase": 1}],
+        "quotes": ["warn", "single", {"allowTemplateLiterals": true}],
+        "no-multi-spaces": ["warn", {"exceptions": { "VariableDeclarator": true }}],
+        "no-trailing-spaces": "warn",
+        "new-cap": "warn",
+        "no-redeclare": ["error", { "builtinGlobals": true }]
+    }
+  }
