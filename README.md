@@ -3,6 +3,7 @@
 to run backend:
 
 + add your backend .env file
++ npm i
 + run 'npm start' OR equivalent to run 'start' script in package.json
 
 ```
